@@ -84,6 +84,8 @@ print(results)
 
 ### Best Two regressor model
 ```
+The two best variables for pike is length 1 and length 3.
+
 
 
 ```{r}
