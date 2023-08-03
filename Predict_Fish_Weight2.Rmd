@@ -90,7 +90,7 @@ print(results)
 perchModel=lm(Weight~Length1+Length3,data=pike)
 summary(perchModel)
 ```
-
+The best model for the adjusted R squared is 0.9649
 
 
 ## Roach
