@@ -56,14 +56,21 @@ summary(perchModel)
 
 
 ## Pike
+```
 
+The best model has the adjusted r squared of 0.94
+
+#Pike
 ```{r}
 pike = filter(fishData, Species == "Pike")
 ```
-The best model has the adjusted r squared of 0.94
+
+
+
+```{r}
 
 ### Best Models
-```{r}
+
 models = regsubsets(Weight ~ Length1+Length2+Length3+Height+Width, data=pike,
                     nvmax=5)
 
